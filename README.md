@@ -12,9 +12,9 @@ Currently, this is a one-way trip
 While this module is still under construction, At its most rudimentary level, it already works.
 
 To get waveforms from a .mat file....
-'''python
+```python
 >>> w = loadmatwaveforms("somewave.mat")
-'''
+```
 
 So, assume a file was saved from matlab...
 ```matlab
@@ -25,11 +25,11 @@ So, assume a file was saved from matlab...
 ```
 
 Then
-'''python
+```python
 >>> w = loadmatwaveforms("mystuff.mat")
-'''
+```
 will return w as a dictionary...
-'''python
+```python
 w['mywaveforms']= <osbpy.core.stream.Stream>  # containing 3 individual Traces
 w['otherwave'] = <obspy.core.stream.Stream> #containing 1 Trace
-'''
+```
