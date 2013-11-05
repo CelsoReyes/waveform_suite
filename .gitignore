@@ -13,13 +13,13 @@ eggs/
 parts/
 var/
 sdist/
-develop-eggs/
-.installed.cfg
+develop-eggs/.installed.cfg
 
 # Installer logs
 pip-log.txt
 
 # Unit test / coverage reports
+htmlcov/
 .coverage
 .tox
 
